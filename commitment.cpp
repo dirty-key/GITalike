@@ -68,7 +68,7 @@ Commit createCommit(const std::string& author, const std::string& message) {
 }
 
 int commitment() {
-    std::string filePath = "C:\\Users\\mridu\\Downloads\\GITalike\\Repo\\commit.txt"; // Specify the desired file path
+    std::string filePath = "C:\\Users\\mridu\\Downloads\\Test_Folder\\Repo\\commit.txt"; // Specify the desired file path
     std::string author, message;
     char choice;
 

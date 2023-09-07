@@ -4,7 +4,7 @@
 
 int make_dir() {
     std::string RepoPath;  // Specify the directory path here
-    RepoPath = "C:\\Users\\mridu\\Downloads\\GITalike\\Repo";
+    RepoPath = "C:\\Users\\mridu\\Downloads\\Test_Folder\\Repo";
 
 #ifdef _WIN32  // Check if the platform is Windows
     std::string command = "mkdir " + RepoPath;

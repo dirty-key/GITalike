@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 
-int main() {
+int filetostring() {
     // Specify the file path to test.txt in the C:\Downloads folder
     std::string filePath = "C:\\Users\\mridu\\Downloads\\test.txt";
 
@@ -31,7 +31,7 @@ int main() {
     inputFile.close();
 
     // Print or use the file content as needed
-    std::cout << "File Content with Escape Sequences:\n" << fileContent << std::endl;
+    //std::cout << "File Content with Escape Sequences:\n" << fileContent << std::endl;
 
-    return 0;
+    return fileContent;
 }
