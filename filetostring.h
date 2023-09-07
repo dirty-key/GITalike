@@ -2,16 +2,16 @@
 #include <fstream>
 #include <string>
 
-int filetostring() {
+std::string filetostring() {
     // Specify the file path to test.txt in the C:\Downloads folder
-    std::string filePath = "C:\\Users\\mridu\\Downloads\\test.txt";
+    std::string filePath = "C:\\Users\\mridu\\Downloads\\Test_folder\\test.txt";
 
     // Open the file for reading
     std::ifstream inputFile(filePath);
 
     if (!inputFile.is_open()) {
         std::cerr << "Failed to open the file: " << filePath << std::endl;
-        return 1;
+        return "";
     }
 
     // Read the file content into a string

@@ -8,7 +8,7 @@
 #include <string>
 #include <iomanip>
 #include <sstream>
-//#include <openssl/sha.h> // For SHA-256 hash
+#include <openssl/sha.h> // For SHA-256 hash
 
 struct Commit {
     std::string id;

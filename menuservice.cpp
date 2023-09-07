@@ -3,7 +3,8 @@
 #include <string>
 #include "commitment.h"
 #include "Makingfilesdirectories.h"
-
+// #include "list.h"
+//#include "diffandinverseanditworks.h"
 
 int main() {
     int choice;
@@ -23,6 +24,7 @@ int main() {
                break;
             case 2:
                 commitment();
+                //printLinkedList();
                 break;
             case 3:
                

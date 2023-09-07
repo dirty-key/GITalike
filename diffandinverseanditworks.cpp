@@ -198,6 +198,7 @@ int main() {
     std::string originalContent = "This is the content.\n Blah blah blah\n This is the same line.";
     std::string modifiedContent = "This is the modifed content.\n Blah blah\n This is the same line.";
 
+
     // Generate and print the diff data
     std::string diffData = generateDiffData(originalContent, modifiedContent);
     std::cout << "Diff Data:\n" << diffData << "\n";

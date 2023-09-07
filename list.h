@@ -82,24 +82,24 @@ public:
 
 
 void printLinkedList()
-    {DoublyLinkedList snapshots;
+    {DoublyLinkedList commitHistory;
     bool firstCommit = true;
     std::string oldData;
     std::hash<std::string> hash_obj;
 
 
-    Call f1 and f2 to get diff data and commit ID and add them to the list.
-        std::string data = firstCommit?"":oldData;
-        firstCommit = false;
-        std::string diffData = generateDiffData(data,filetostring());
-        oldData = filetostring();
-        int commitId = f2();
-        snapshots.addDiffDataAndCommitId(diffData, commitId);
-       //std::cout<<hash_obj("hello");
+    // Call f1 and f2 to get diff data and commit ID and add them to the list.
+        // std::string data = firstCommit?"":oldData;
+        // firstCommit = false;
+        // std::string diffData = generateDiffData(data,filetostring());
+        // oldData = filetostring();
+        // int commitId = f2();
+        // commitHistory.addDiffDataAndCommitId(diffData, commitId);
+        std::cout<<hash_obj("hrelooo");
 
     //std::cout << "Commit History:\n";
-    //snapshots.displayCommitHistory();
+    //commitHistory.displayCommitHistory();
 
-    //snapshots.saveToFile("commit_history.txt");
+    //commitHistory.saveToFile("commit_history.txt");
 
 }
